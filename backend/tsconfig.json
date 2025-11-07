@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    /* Módulos e Target */
+    "target": "es2020", 
+    "module": "commonjs", // ESSENCIAL: Diz ao TS para compilar para o formato Node.js
+    "moduleResolution": "node",
+    
+    /* Configurações de Interoperabilidade */
+    "esModuleInterop": true, // Permite importar módulos CommonJS (como Express) facilmente
+    "forceConsistentCasingInFileNames": true, 
+    
+    /* Diretórios */
+    // Garante que o compilador encontre o seu código na pasta 'src'
+    "rootDir": "./src", 
+    // Onde os arquivos .js compilados seriam colocados (opcional, mas bom ter)
+    "outDir": "./dist", 
+    
+    /* Tipos e Checks */
+    "strict": true, 
+    "skipLibCheck": true 
+  }
+}

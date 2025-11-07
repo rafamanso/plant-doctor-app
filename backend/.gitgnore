@@ -1,0 +1,8 @@
+# Arquivos de chave de segurança
+.env
+
+# Dependências (node_modules)
+node_modules/
+
+# Saída de compilação do TypeScript
+dist/
